@@ -1,0 +1,5 @@
+# robots.txt for Paranoia 2.0
+
+User-agent: *
+Disallow:/data/ # Forbid crawling the file storage
+Disallow:/i/    # Forbid crawling static images

@@ -1,52 +1,28 @@
-# Prerequisites
-*.d
+# backups & leftovers
+*~
+.directory
+*.[aod]
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# libraries
+libparanoia.so
+libsoldout.so
+libmd5.so
+libthumb.so
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# binaries
+art
+cmd
+dat
+eye
+idx
+inf
+qtz
+tvs
+uzx
+www
+zwt
+tmb
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# files directories
+data
+t

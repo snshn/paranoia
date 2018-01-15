@@ -1,0 +1,189 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    /*cursor: url('i/cursors/3D_red_normalselect.cur'), default;*/
+    color: #9A9A9A;
+    height: 100%;
+    font: normal 13pt Verdana, Arial;
+    background: #010101 url(/i/background.png) repeat-x;
+    overflow-y: scroll;
+    margin: 0 0 5em;
+}
+
+a {
+    color: #1676f8;
+    outline: none;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 300ms;
+    /*cursor: url('i/cursors/3D_red_precisionselect.cur'), crosshair;*/
+}
+a:visited {
+    color: #7616f8;
+}
+a:hover {
+    opacity: 1;
+    transition: opacity 10ms;
+}
+
+textarea {
+    color: #FFF;
+    background: #111;
+    border: solid 4px #111;
+}
+
+code {
+    color: #F5CB4E;
+    text-shadow: rgba(252, 143, 0, 155) 0 0 4px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    margin: 8px 0;
+    padding: 2pt 4pt;
+    font-size: 9pt;
+    line-height: 13pt;
+    background: rgba(10, 10, 10, .8);
+    border-radius: 4px;
+}
+code b {
+    color: #FFF;
+}
+
+
+/* {header} */
+header {
+    display: block;
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    background: #000;
+    border-radius: 0 0 0 20px;
+}
+header a#top {
+    width: 100px;
+    height: 100px;
+    padding-left: 16px;
+    padding-right: 120px;
+    background: transparent url(/i/globe.gif) center center no-repeat;
+}
+header a {
+    float: left;
+}
+
+/* {nav} */
+nav {
+    padding-top: 10px;
+    float: left;
+    height: 100px;
+    width: 512px;
+    text-align: center;
+    vertical-align: middle;
+}
+nav a, nav a:visited {
+    color: #EEE;
+    font-size: 1em;
+    white-space: nowrap;
+    padding: 4px;
+}
+nav a:hover {
+    color: #C00;
+}
+nav a:active {
+    color: #F00;
+}
+nav a#current {
+    color: #F00;
+    font-weight: normal;
+    text-shadow: #FC0000 0px 0px 4px;
+}
+nav a span {
+    color: transparent;
+}
+/* {/nav} */
+/* {/header} */
+
+
+#page {
+    min-height: 250px;
+    padding: 1em;
+    font-size: 11pt;
+    line-height: 15pt;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.message {
+    background: #162215 url(/i/information.png) no-repeat 8px center;
+    border: 1px solid #223620;
+    color: #779474;
+    text-shadow: -1px -1px 0 #000;
+    line-height: 150%;
+    padding: 10px 10px 10px 30px;
+    white-space: pre;
+    font-size: 8pt;
+    margin-bottom: 16px;
+}
+.message.error {
+    background-color: #221515;
+    background-image: url(/i/exclamation.png);
+    color: #937272;
+    font-size: 8pt;
+    border-color: #3a2323;
+}
+.message.information {
+    background-color:#202020;
+    color:#515151;
+    clear:both;
+    border-color:#282828;
+    margin: 0 0 10px;
+}
+
+blockquote {
+    display: inline-block;
+    display: inline-table;
+    color: #DDD;
+    padding: 16px;
+    white-space: pre-wrap;
+    background: #1A1A1A;
+    margin: 10px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 10pt;
+}
+
+/* {footer} */
+footer {
+    height: 100px;
+    width: 780px;
+    margin: 0 auto;
+    background: url(/i/bladerunner.png) center left no-repeat;
+}
+    footer span {
+        color: #D7D3C6;
+        font-size: 8pt;
+        display: block;
+        padding-left: 162px;
+        padding-top: 28px;
+        white-space: pre;
+    }
+/* {/footer} */
+
+/* {404} */
+.not-found {
+    padding: 8px;
+    color: #FFF;
+    font-size: 144pt;
+    font-family: monospace;
+    text-align: center;
+    white-space: pre;
+    background: #F00;
+}
+.not-found b {
+    font-weight: normal;
+    text-decoration: blink;
+}
+/* {/404} */
